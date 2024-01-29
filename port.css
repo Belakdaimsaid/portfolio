@@ -1,23 +1,146 @@
-body{
-    padding: 10px;
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Couleur de fond en mode clair */
+    color: #333; /* Couleur du texte en mode clair */
+    transition: background-color 0.5s, color 0.5s;
 }
-.name{
-    transform: translateY(120px);
+
+.dark-mode {
+    background-color: #333; /* Couleur de fond en mode sombre */
+    color: #fff; /* Couleur du texte en mode sombre */
 }
-span{
-    color: red;
+h1 { text-align: center;
+
 }
-button{
-    border-radius: 10px;
-    font-size: 20px;
-    background-color: red;
-    border: none;
+#iconDark{
     height: 30px;
+    width: 30px;
+    border-radius: 50%;
 }
-button:hover{
-    background-color: rgb(50, 44, 44);
-    color: beige;
-    transition: 1s;
+.cc {
+    padding: 70px;
+    margin-top: -50px;
+    height: 90vh;
+}
+
+.menu {
+    display :flex;
+ background-color: #e5e5ec;
+ border-radius:15px ;
+ justify-content: space-between;
+}
+
+.menu h1 {
+    
+    font-size: 28px;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+
+}
+
+.menu li {
+    display :flex;
+ 
+ justify-content: space-between;
+
+    display: inline-block;
+    margin-right: 100px;
+    color: #fdf8f8;
+}
+
+.menu a {
+
+    text-decoration: none;
+    color: #333; /* Couleur du texte en mode clair */
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #007bff; /* Couleur du texte au survol en mode clair */
+}
+
+.contener {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.name {
+    text-align: center;
+}
+
+.name h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.name h1 {
+    margin: 10px 0;
+    font-size: 48px;
+}
+
+.name span {
+    color: #007bff; /* Couleur du texte souligné en mode clair */
+}
+
+.name h3 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff; /* Couleur du bouton en mode clair */
+    color: #fff; /* Couleur du texte du bouton en mode clair */
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Couleur du bouton au survol en mode clair */
+}
+
+.dark-mode button {
+    background-color: #fff; /* Couleur du bouton en mode sombre */
+    color: #fdfcfc; /* Couleur du texte du bouton en mode sombre */
+    border-radius: 15px;
+    padding: 10px 20px;
     font-size: 20px;
-    height: 35px;
+    background-color: #007bff; /* Couleur du bouton en mode clair */
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
 }
+
+.dark-mode button:hover {
+    background-color: white; /* Couleur du bouton au survol en mode sombre */
+    color: #007bff;
+    font-size: 20px;
+}
+.dark-mode .menu a {
+    color: #ddd;
+    font-size: 25px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.dark-mode .menu{
+    background-color: #2f2f2f;
+     
+    border-radius: 15px;
+}
+
+
+        

@@ -7,100 +7,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="port.css">
-    <style>
-        .menu {}
-
-        ul li {
-            list-style: none;
-            margin: auto;
-
-        }
-
-        ul {
-            display: flex;
-            list-style: none;
-            margin-left: 500px;
-            margin-top: -50px;
-
-
-        }
-
-        ul li a {
-            text-decoration: none;
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 20px;
-
-        }
-
-        li a:hover {
-            color: brown;
-
-        }
-
-        @media screen and (max-width:600px) {
-
-            ul {
-                flex-direction: column;
-                margin-left: 0px;
-                margin-top: 50px;
-
-            }
-
-            li a {
-                color: blue;
-
-
-
-            }
-
-
-
-        }
-    </style>
+   
+        
+  
 </head>
 
 <body>
 
-    <div class="cc" style="padding: 70px; margin-top: -50px;">
-         <h1  >Portfolio</h1>  
+    <div id="home" class="cc" style="padding: 70px; margin-top: -50px; height: 90vh;">
+
 
         <div class="menu">
-         
+            <h1>Portfolio</h1>
             <ul>
-
-                <li><a href="#">Home</a> </li>
-                <li><a href="#">About</a> </li>
-                <li><a href="#">Skils</a> </li>
-                <li><a href="#">Work</a> </li>
-                <li><a href="#">contact</a> </li>
-
+                <li><a href="#home" onclick="handleMenuItemClick(this)">Home</a></li>
+                <li><a href="#bout" onclick="handleMenuItemClick(this)">About</a></li>
+                <li><a href="#" onclick="handleMenuItemClick(this)">Skills</a></li>
+                <li><a href="#" onclick="handleMenuItemClick(this)">Work</a></li>
+                <li><a href="#" onclick="handleMenuItemClick(this)">Contact</a></li>
+                <img id="iconDark" src="/imges/téléchargement.png" onclick="toggleDarkMode()" alt="">
             </ul>
 
         </div>
-<div class="contener">
-  <div class="name">
-    <h4>Hello,my name is</h4>
-    <h1>Said <span>BELAKDAIM</span></h1>
-    <h3>i'm a <span>Full Stack</span>  developer</h3>
-    <button>Downlood CV</button>
-  </div>
+        <div class="contener">
+            <div class="name">
+                <h4>Hello,my name is</h4>
+                <h1>Said <span>BELAKDAIM</span></h1>
+                <h3>i'm a <span>Full Stack</span> developer</h3>
+                <button>Downlood CV</button>
+            </div>
 
-</div>
+        </div>
+       
 
 
 
+      
 
 
 
     </div>
+
 </body>
 
 </html>
-<script>
-
-
-
-
-
-
-</script>
+<script src="portfo.js"></script>
